@@ -1,11 +1,11 @@
 import smtplib
 
 # Údaje pre odosielanie e-mailu
-od = 'tvoj_email@gmail.com'
-heslo = 'tvoje_heslo'
-komu = 'prijemca@gmail.com'
-predmet = 'Toto je predmet správy'
-obsah = 'Toto je obsah správy.'
+od = input'Odosielatel je : ')
+heslo = input('tvoje_heslo : ')
+komu = input('nazov prijemcu : ')
+predmet = input('Napiste predmet správy : ')
+obsah = input('Napiste obsah spravy : ')
 
 # Pripojenie k SMTP serveru Gmailu
 server = smtplib.SMTP('smtp.gmail.com', 587)
