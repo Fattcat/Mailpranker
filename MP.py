@@ -1,7 +1,7 @@
 import smtplib
 
 # Údaje pre odosielanie e-mailu
-od = input'Odosielatel je : ')
+od = input('Odosielatel je : ')
 heslo = input('tvoje_heslo : ')
 komu = input('nazov prijemcu : ')
 predmet = input('Napiste predmet správy : ')
